@@ -1,0 +1,18 @@
+@import '../../styles/vars';
+
+.menu {
+  background-color: $menu-background-color;
+}
+
+.menu-wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+  gap: 15px;
+}
+
+.menu-link {
+  color: $text-color;
+  text-decoration: none;
+}
